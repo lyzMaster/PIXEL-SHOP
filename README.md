@@ -6,3 +6,6 @@
 ### YSQ：购物袋（bag.html）  购物确认（confirm.html）  查看订单（orders.html）
 ### QQ ：关于我们(about.html)  钱包（wallet.html）
 ### XJJ：答辩视频  文档
+
+## title命名规则：
+### 模块名称-PIXEL SHOP，如：登陆-PIXEL SHOP
