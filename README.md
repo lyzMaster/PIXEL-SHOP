@@ -1,4 +1,4 @@
-# PIXEL-SHOP
+# Spiders
 ## 成员分工
 ### XMH：登陆（login.html）  注册（register.html）  教程页(tutorial.html)
 ### XSJ：意见反馈(feedback.html)  探讨(discuss.html)  所有讨论(discuss_list.html)
