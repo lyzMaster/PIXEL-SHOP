@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>安装教程-PIXEL SHOP</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="shortcut icon" type="image-icon" href="https://www.pixeldesert.com/jump/image/favicon.png" media="screen" />
+	<link type="text/css" rel="stylesheet" href="css/xmh.css">
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"  media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+	<link rel="stylesheet"
+	      href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-flash.min.css" />
+	<link href="themes/prism.css" rel="stylesheet" />
+</head>
+<body>
+	<!--header begin-->
+	<div class="navbar-fixed" style="z-index: 999;">
+		<nav class="z-depth-0">
+			<div class="nav-wrapper white" id="nav-bar">
+				<form id="search_from">
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons" onclick="add_bar()">close</i>
+					</div>
+				</form>
+				<img class="responsive-img logo hide-on-small-only" src="images/logo.PNG">
+				<a href="#" class="flow-text black-text">PIXEL SHOP</a>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color: #7A7A7C">menu</i></a>
+				<ul id="nav-mobile" class="right">
+					<li><a href="market.html" class="hide-on-med-and-down transparent bar_word1" style="z-index: 20">商城</a></li>
+					<li><a href="discuss_list.html" class="hide-on-med-and-down transparent bar_word2" style="z-index: 20">探讨</a></li>
+					<li><a class="show-on-small transparent bar_word3" onclick="add_search()" style="z-index: 20"><i
+							class="material-icons">search
+					</i></a></li>
+					<div class="valign-wrapper" style="margin-top: 10px;"><a href="login.html"
+																			 class="hide-on-med-and-down transparent"><img
+							style="height:30px;width:30px;" id="user_on_nav" class="circle z-depth-0"
+							src="images/user.jpg"></a></div>
+				</ul>
+				<ul id="slide-out" class="side-nav">
+					<li>
+						<div class="user-view">
+							<div class="background">
+								<img src="images/user_background.jpg">
+							</div>
+							<a href="register.html"><img class="circle" src="images/user.jpg"></a>
+							<a href="register.html"><span class="white-text name">Liu</span></a>
+							<a href="register.html "><span class="white-text email">ai@deepdrive.org</span></a>
+						</div>
+					</li>
+					<li><a class="subheader">我的</a></li>
+					<li><a href="bag.html" class="waves-effect waves-red"><i class="material-icons">shopping_basket</i>购物袋</a></li>
+					<li><a href="wallet.html" target='_blank' class="waves-effect waves-red"><i class="material-icons">account_balance_wallet</i>钱包</a></li>
+					<li><a href="orders.html" class="waves-effect waves-red"><i class="material-icons">local_shipping</i>订单</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="subheader">功能</a></li>
+					<li><a href="discuss_list.html" class="waves-effect waves-orange"><i class="material-icons">supervised_user_circle</i>探讨</a></li>
+					<li><a href="market.html" class="waves-effect waves-orange"><i class="material-icons">memory</i>配件</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="subheader">服务</a></li>
+					<li><a href="feedback.html" class="waves-effect waves-teal"><i class="material-icons">feedback</i>意见反馈</a></li>
+					<li><a href="about.html" class="waves-effect waves-teal"><i class="material-icons">face</i>关于我们</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!--header end-->
+
+	<!--begin code here-->
+	<main>
+		<div class="row">
+			
+
+			<div class="col s12 m10 ">
+				<div id="Connect_the_parts" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Connect the parts</h3>
+								</div>
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 50px">
+										Connect the parts in the following order. Note that some versions of the Starter
+										Kit do not include the Rainbow HAT, camera,
+										multi-touch display, and/or cardboard stand.</font>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="Connect_the_USB-C_cable" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Connect the USB-C cable</h3>
+								</div>
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="padding-bottom: 30px">
+										Connect one side of the USB-C cable to the i.MX7D development board and the other
+										side to your computer to power up the Starter Kit.</font>
+								</div>
+
+								<div class="card-images" style="padding-left: 25px">
+									<img class="responsive-img" img src="images/usb_step1.png">
+								</div>
+
+								<div class="usb 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="Verify_Android_Things" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Verify Android Things</h3>
+								</div>
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="padding-bottom: 30px">
+										If you see the screen below on your multi-touch display, you have the latest
+										version of Android Things installed and you can set it up using the Android Things
+										Toolkit companion app. Otherwise, follow the hardware setup instructions to flash
+										the latest version of Android Things on your i.MX7D development board.</font>
+								</div>
+
+								<div class="card-images" style="padding-left: 25px">
+									<img class="responsive-img" src="images/iot-launcher-screen.png">
+								</div>
+
+								<div class="usb 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="Blink_an_LED" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Blink an LED</h3>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="padding-bottom: 20px">
+										If you have a Rainbow HAT, follow these instructions to download and run a sample
+										that blinks one of the HAT's LEDs. If you don't have a Rainbow HAT, you can connect
+										an LED and button to the i.MX7D development board and run the sample.</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										1. Download and unzip the sample-button project to the directory of your choice.</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										2. Run the project using either of the following:</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="red" size="5px"  style="padding-bottom: 15px">
+										In Android Studio, select File > Open and select the directory where you unzipped
+										the sample. Select Run > Run 'app'.
+
+									</li>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="red" size="5px"  style="padding-bottom: 15px">
+										From the command line:
+
+									</li>
+								</div>
+
+								<script src="prism.js"></script>
+								<div style="padding: 25px">
+									<div class="card black"  >
+										<div class=" card-content green-text"  >
+											<pre><code class="language-css">cd sample-button-master</code></pre>
+											<pre><code class="language-css">./gradlew assembleDebug</code></pre>
+											<pre><code class="language-css">adb install -g -r app/build/outputs/apk/app-debug.apk</code></pre>
+											<pre><code class="language-css">adb shell am start com.example.androidthings.button/.ButtonActivity</code></pre>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										3. Press the "A" button on the Rainbow HAT and the red LED will light up. If you
+										connected an external button and LED, press the button to light the LED.</font>
+								</div>
+
+
+
+								<div class="led 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="Take_a_photo_and_analyze_it" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Take a photo and analyze it</h3>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="padding-bottom: 20px">
+										Follow these instructions to take a photo with the camera module and run machine
+										learning on the image.</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										1. If you have tried the previous sample, remember to uninstall it before continuing,
+										so that one does not interfere with the other:</font>
+								</div>
+
+								<script src="prism.js"></script>
+								<div style="padding: 25px">
+								 <div class="card black"  >
+									 <div class=" card-content green-text"  >
+										<pre><code class="language-css">adb uninstall com.example.androidthings.button</code></pre>
+									 </div>
+								 </div>
+								</div>
+
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										2. Download and unzip the sample-tensorflow-imageclassifier project to the directory of your choice.</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										3. Run the project using either of the following:</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										In Android Studio, select File > Open and select the directory where you unzipped
+										the sample. Select Run > Run 'app'.
+									</li>
+
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										From the command line:
+									</li>
+								</div>
+
+									<script src="prism.js"></script>
+									<div style="padding: 25px">
+										<div class="card black"  >
+											<div class=" card-content green-text"  >
+												<pre><code class="language-css">cd sample-tensorflow-imageclassifier</code></pre>
+												<pre><code class="language-css">./gradlew assembleDebug</code></pre>
+												<pre><code class="language-css">adb install -g -r app/build/outputs/apk/app-debug.apk</code></pre>
+												<pre><code class="language-css">adb shell am start com.example.androidthings.imageclassifier/.ImageClassifierActivity</code></pre>
+											</div>
+										</div>
+									</div>
+
+								<div class="card-content black-text" >
+										<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+											4.Point the camera at something that you want to analyze. The model is particularly
+											good at recognizing breeds of dogs and cats.</font>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										If you have a Rainbow HAT, press the "A" button.
+									</li>
+
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										If you do not have a Rainbow HAT, simulate the press of the ENTER key from the command line:
+									</li>
+								</div>
+
+								<script src="prism.js"></script>
+								<div style="padding: 25px">
+									<div class="card black"  >
+										<div class=" card-content green-text"  >
+											<pre><code class="language-css"> adb shell input keyevent 66</code></pre>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-content black-text" >
+									<font face="Roboto - 100" color="#424242" size="3px"  style="margin-bottom: 30px">
+										5.See the results on the multi-touch display. You can also connect a speaker or
+										a headset to the board's audio jack. The sample uses text-to-speech to announce what it recognizes.</font>
+								</div>
+
+								<div class="led 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="Next_steps" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Next steps</h3>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="red" size="5px"  style="padding-bottom: 15px">
+										Try one of the other code samples. Remember to uninstall any existing samples from
+										the development board before installing a new one, so that one does not interfere
+										with the other. For example, to uninstall the previous samples from the command line:
+									</li>
+								</div>
+
+								<script src="prism.js"></script>
+								<div style="padding: 25px">
+									<div class="card black"  >
+										<div class=" card-content green-text"  >
+											<pre><code class="language-css">adb uninstall com.example.androidthings.button</code></pre>
+											<pre><code class="language-css">adb uninstall com.example.androidthings.imageclassifier</code></pre>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="red" size="5px"  style="padding-bottom: 15px">
+										Take a look at the Peripherals codelab or learn how to build your first device.
+
+									</li>
+								</div>
+
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="red" size="5px"  style="padding-bottom: 15px">
+										Connect with the community at g.co/iotdev.
+
+									</li>
+								</div>
+
+
+								<div class="led 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="Troubleshooting" class="section scrollspy">
+					<div class="row">
+						<div class="col s12 m10 ">
+							<div class="card white" >
+								<div class="card-content black-text">
+									<h3 class>Troubleshooting</h3>
+								</div>
+								<div class="card-content black-text" >
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										If the RGB LED strip on the Rainbow HAT doesn’t turn on, make sure the Rainbow HAT
+										is seated correctly. It needs to be pushed down such that the pins from the i.MX7D
+										are fully inserted into the connector while making sure the Rainbow HAT board is
+										not in contact with the i.MX7D board.
+
+									</li>
+
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										Some USB ports don't provide enough power for the i.MX7D development board. If your
+										board will not boot (or reboot) after some time, try using a powered USB hub or
+										a USB 3.0 port.
+
+									</li>
+
+									<li face="Roboto - 100" color="#424242" size="5px"  style="padding-bottom: 30px">
+										If you are using a native USB-C port on your host machine and the i.MX7D development
+										board keeps rebooting, you may need to use a USB-A port on your host machine instead.
+										You will need a USB-A to USB-C adapter cable.
+
+									</li>
+
+									<div class="card-content black-text" >
+										<i class="info_outline"><font face="Roboto - 100" color="#bc8f8f" size="3px"  style="padding-bottom: 30px">
+											You can report bugs and suggest new features with the Android Things issue tracker.
+
+										</font></i>
+									</div>
+
+								</div>
+								
+
+								<div class="usb 1" style="padding-bottom: 35px"></div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col hide-on-small-only m3 l2" style="margin-top: 40px">
+				<div class="pinned" style="margin-top: 30px">
+				 <ul class="section table-of-contents">
+					 <li><a href="#Connect_the_parts">Connect the parts</a></li>
+					 <li><a href="#Connect_the_USB-C_cable">Connect the USB-C cable</a></li>
+					 <li><a href="#Verify_Android_Things">Verify Android Things</a></li>
+					 <li><a href="#Blink_an_LED">Blink an LED</a></li>
+					 <li><a href="#Take_a_photo_and_analyze_it">Take a photo and analyze it</a></li>
+					 <li><a href="#Next_steps">Next steps</a></li>
+					 <li><a href="#Troubleshooting">Troubleshooting</a></li>
+				 </ul>
+				</div>
+			</div>
+
+	     </div>
+
+	</main>
+
+	<!--end code here-->
+	<div class="fixed-action-btn hide-on-med-and-down">
+		<a class="btn-floating btn-large red">
+			<i class="large material-icons waves-effect waves-light hoverable">apps</i>
+		</a>
+		<ul>
+			<li><a href='discuss_list.html' class="btn-floating yellow darken-1 waves-effect waves-light"><i class="material-icons">supervised_user_circle</i></a></li>
+			<li><a  href='market.html' class="btn-floating red waves-effect waves-light"><i class="material-icons">store
+			</i></a></li>
+			<li><a href='wallet.html' class="btn-floating green waves-effect waves-light"><i class="material-icons">
+				account_balance_wallet</i></a></li>
+			<li><a href="bag.html"
+				   class="btn-floating blue waves-effect waves-light"><i class="material-icons">shopping_basket</i></a></li>
+		</ul>
+	</div>
+	<div class="fixed-action-btn hide-on-large-only">
+		<a href='bag.html' class="btn-floating btn-large red waves-effect waves-light hoverable">
+			<i class="large material-icons">shopping_basket</i>
+		</a>
+	</div>
+
+	<!--footer begin-->
+	<footer class="page-footer black">
+		<div class="container">
+			<div class="row">
+				<blockquote class="col l6 s12">
+					<h5 class="white-text flow-text">PIXEL SHOP ,</h5>
+					<h5 class="grey-text text-lighten-4 flow-text">create AI by yourself.</h5>
+				</blockquote>
+				<div class="col l4 offset-l2 s12 hide-on-small-only">
+					<ul>
+						<li><a class="grey-text text-lighten-3 flow-text" href="register.html">注册新账户</a></li>
+						<li><a class="grey-text text-lighten-3 flow-text" href="feedback.html">意见反馈</a></li>
+						<li><a class="grey-text text-lighten-3 flow-text" href="about.html">关于我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© Pixeldesert 2018 Copyright
+			</div>
+		</div>
+	</footer>
+<!--footer end-->
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

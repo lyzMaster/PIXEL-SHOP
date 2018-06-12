@@ -1,0 +1,111 @@
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex:  10 auto;
+	padding-top: 10px;
+}
+
+#nav-mobile a{
+	color: #7A7A7C;
+}
+
+#search_from{
+	position: absolute;
+	float: left;
+	width: 100%;
+	z-index: -999;
+}
+
+@media all and (min-device-width:992px){
+	.product{
+		padding-left: 20px;
+		padding-right: 20px;
+		box-sizing: inherit;
+	}
+
+}
+
+@media all and (max-device-width:992px){
+	.product{
+		padding-left: 15px;
+		padding-right: 15px;
+		box-sizing: inherit;
+	}
+}
+
+
+@media all and (max-device-width:600px){
+	.product{
+
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+.logo{
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* label color */
+.input-field label {
+	color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid #000;
+
+	box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #000;
+}
+html, body, .block {
+	height: 100%;
+}
+
+.pin-top {
+	position: relative;
+}
+
+.pin-bottom {
+   position: relative;
+}
+
+.pinned {
+   position: fixed !important;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+
+

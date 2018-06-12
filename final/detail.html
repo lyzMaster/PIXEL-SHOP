@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NXP i.MX7D开发套件-PIXEL SHOP</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="shortcut icon" type="image-icon" href="https://www.pixeldesert.com/jump/image/favicon.png" media="screen" />
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"  media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+	<link rel="stylesheet"
+	      href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-flash.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/detail.css">
+
+</head>
+<body>
+	<!--header begin-->
+	<div class="navbar-fixed" style="z-index: 999;">
+		<nav class="z-depth-0">
+			<div class="nav-wrapper white" id="nav-bar">
+				<form id="search_from">
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons" onclick="add_bar()">close</i>
+					</div>
+				</form>
+				<img class="responsive-img logo hide-on-small-only" src="images/logo.PNG">
+				<a href="#" class="flow-text black-text">PIXEL SHOP</a>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color: #7A7A7C">menu</i></a>
+				<ul id="nav-mobile" class="right">
+					<li><a href="market.html" class="hide-on-med-and-down transparent bar_word1" style="z-index: 20">商城</a></li>
+					<li><a href="discuss_list.html" class="hide-on-med-and-down transparent bar_word2" style="z-index: 20">探讨</a></li>
+					<li><a class="show-on-small transparent bar_word3" onclick="add_search()" style="z-index: 20"><i
+							class="material-icons">search
+					</i></a></li>
+					<div class="valign-wrapper" style="margin-top: 10px;"><a href="login.html" 
+							class="hide-on-med-and-down transparent"><img
+							style="height:30px;width:30px;" id="user_on_nav" class="circle z-depth-0"
+							src="images/user.jpg"></a></div>
+				</ul>
+				<ul id="slide-out" class="side-nav">
+					<li>
+						<div class="user-view">
+							<div class="background">
+								<img src="images/user_background.jpg">
+							</div>
+							<a href="register.html"><img class="circle" src="images/user.jpg"></a>
+							<a href="register.html"><span class="white-text name">Liu</span></a>
+							<a href="register.html "><span class="white-text email">ai@deepdrive.org</span></a>
+						</div>
+					</li>
+					<li><a class="subheader">我的</a></li>
+					<li><a href="bag.html" class="waves-effect waves-red"><i class="material-icons">shopping_basket</i>购物袋</a></li>
+					<li><a href="wallet.html" target='_blank' class="waves-effect waves-red"><i class="material-icons">account_balance_wallet</i>钱包</a></li>
+					<li><a href="orders.html" class="waves-effect waves-red"><i class="material-icons">local_shipping</i>订单</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="subheader">功能</a></li>
+					<li><a href="discuss_list.html" class="waves-effect waves-orange"><i class="material-icons">supervised_user_circle</i>探讨</a></li>
+					<li><a href="market.html" class="waves-effect waves-orange"><i class="material-icons">memory</i>配件</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="subheader">服务</a></li>
+					<li><a href="feedback.html" class="waves-effect waves-teal"><i class="material-icons">feedback</i>意见反馈</a></li>
+					<li><a href="about.html" class="waves-effect waves-teal"><i class="material-icons">face</i>关于我们</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+<!--header end-->
+	<main>
+		<div class="row web_title">
+			<div class="col l7 s12">
+				<h1>NXP i.MX7D开发套件</h1>
+				<p class="flow-text">我们的开发工具包包括恩智浦i.MX7D，这是一款经济高效且经过安全认证的Android Things开发板，可轻松构建原型。
+					所以当你准备好生产时，你可以毫不费力地将你的代码移到生产板上。</p>
+			</div>
+			<div class="col l5 s12">
+				<img class="responsive-img" src="images/nxp_kit/inventory-1.png">
+			</div>
+		</div>
+		<div class="row web_title hide-on-med-and-down">
+			<a href="confirm.html" class="black waves-effect waves-light btn" style="margin-right: 10px"><i class="material-icons left">
+				fingerprint</i>
+				立即购买</a>
+			<a href="bag.html" class="black waves-effect waves-light btn"><i class="material-icons left">add_shopping_cart</i>加入购物袋</a>
+		</div>
+		<div class="row web_title center-align hide-on-large-only">
+			<a href="confirm.html" class="black waves-effect waves-light btn" style="margin-right: 10px"><i class="material-icons left">
+				fingerprint</i>
+				立即购买</a>
+			<a href="bag.html" class="black waves-effect waves-light btn"><i class="material-icons left">add_shopping_cart</i>加入购物袋</a>
+		</div>
+		<div class="divider"></div>
+
+		<h3 class="center-align">套件里有什么？</h3>
+		<div class="row" id="peijian">
+			<div class="col m6 s12">
+				<div>
+					<table class="highlight centered">
+						<tbody>
+						<tr>
+							<td>纸板架</td>
+							<td>x1</td>
+						</tr>
+						<tr>
+							<td>Pico i.MX7Dual开发板</td>
+							<td>x1</td>
+						</tr>
+						<tr>
+							<td>螺丝</td>
+							<td>x8</td>
+						</tr>
+						<tr>
+							<td>5“多点触摸显示器</td>
+							<td>x1</td>
+						</tr>
+						<tr>
+							<td>显示电缆</td>
+							<td>x1</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col m6 s12">
+				<table class="highlight centered">
+					<tbody>
+					<tr>
+						<td>USB-C电缆</td>
+						<td>x1</td>
+					</tr>
+					<tr>
+						<td>支架</td>
+						<td>x8</td>
+					</tr>
+					<tr>
+						<td>Wifi天线和延长线</td>
+						<td>x1</td>
+					</tr>
+					<tr>
+						<td>相机模块</td>
+						<td>x1</td>
+					</tr>
+					<tr>
+						<td>相机模块电缆</td>
+						<td>x1</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="row web_title" style="margin-top: 20px">
+			<div class="col m7 s12">
+				<img class="responsive-img" src="images/android_car.png">
+			</div>
+			<div class="col m5 s12">
+				<h4>已经拥有？</h4>
+				<p class="flow-text">访问我们的论坛，浏览极客们分享的有趣、实用、好玩的项目。或在论坛讨论你的困惑，会有开发者前来帮忙！</p>
+				<a href='discuss_list.html' class="waves-effect waves-light btn black"><i class="material-icons right">dvr</i>转到论坛</a>
+				<div class="divider" style="margin-top: 20px"></div>
+				<h4>初次使用？</h4>
+				<p class="flow-text">浏览我们为您提供的安装教程！只需简单几步，便可开始您的AI之旅！</p>
+				<a href='tutorial.html' class="waves-effect waves-light btn black"><i class="material-icons right">ballot</i>浏览安装教程</a>
+
+			</div>
+		</div>
+
+	</main>
+<!--button right down begin-->
+	<div class="fixed-action-btn hide-on-med-and-down">
+		<a class="btn-floating btn-large red">
+			<i class="large material-icons waves-effect waves-light hoverable">apps</i>
+		</a>
+		<ul>
+			<li><a href='discuss_list.html' class="btn-floating yellow darken-1 waves-effect waves-light"><i class="material-icons">supervised_user_circle</i></a></li>
+			<li><a  href='market.html' class="btn-floating red waves-effect waves-light"><i class="material-icons">store
+			</i></a></li>
+			<li><a href='wallet.html' class="btn-floating green waves-effect waves-light"><i class="material-icons">
+				account_balance_wallet</i></a></li>
+			<li><a href="bag.html" 
+					class="btn-floating blue waves-effect waves-light"><i class="material-icons">shopping_basket</i></a></li>
+		</ul>
+	</div>
+	<div class="fixed-action-btn hide-on-large-only">
+		<a href='bag.html' class="btn-floating btn-large red waves-effect waves-light hoverable">
+			<i class="large material-icons">shopping_basket</i>
+		</a>
+	</div>
+<!--button right down end-->
+
+<!--footer begin-->
+	<footer class="page-footer black">
+		<div class="container">
+			<div class="row">
+				<blockquote class="col l6 s12">
+					<h5 class="white-text flow-text">PIXEL SHOP ,</h5>
+					<h5 class="grey-text text-lighten-4 flow-text">create AI by yourself.</h5>
+				</blockquote>
+				<div class="col l4 offset-l2 s12 hide-on-small-only">
+					<ul>
+						<li><a class="grey-text text-lighten-3 flow-text" href="register.html">注册新账户</a></li>
+						<li><a class="grey-text text-lighten-3 flow-text" href="feedback.html">意见反馈</a></li>
+						<li><a class="grey-text text-lighten-3 flow-text" href="about.html">关于我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© Pixeldesert 2018 Copyright
+			</div>
+		</div>
+	</footer>
+<!--footer end-->
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
